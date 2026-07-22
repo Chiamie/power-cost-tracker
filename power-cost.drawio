@@ -827,14 +827,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="r7XTzwUogx4Tm2E9HMPJ" name="use-case-diagram">
-    <mxGraphModel dx="736" dy="1549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="1699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SaG6MVgB-047XTkVBWkK-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Business Manager&amp;nbsp;" vertex="1">
           <mxGeometry height="60" width="30" x="40" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="SaG6MVgB-047XTkVBWkK-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Business Manager&amp;nbsp;" vertex="1">
+        <mxCell id="SaG6MVgB-047XTkVBWkK-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Store keeper" vertex="1">
           <mxGeometry height="60" width="30" x="240" y="120" as="geometry" />
         </mxCell>
         <mxCell id="SaG6MVgB-047XTkVBWkK-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="WhatsAPP/ IoT GateWay" vertex="1">
@@ -985,10 +985,22 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HgNi-u57P6XXY6phYOXZ" name="activity-diagram">
-    <mxGraphModel dx="658" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="736" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="C8cA5n5bP2G-Ml_hOOvA-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="450" width="710" x="90" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C8cA5n5bP2G-Ml_hOOvA-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Record Power Reading" vertex="1">
+          <mxGeometry height="10" width="140" x="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C8cA5n5bP2G-Ml_hOOvA-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;precondition&amp;gt;&amp;gt; a business exists&lt;div&gt;&amp;lt;&amp;lt;precondition&amp;gt;&amp;gt; at least one power source is registered&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;precondition&amp;gt;&amp;gt; selected power source is active&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;precondition&amp;gt;&amp;gt; user is authorized&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="120" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C8cA5n5bP2G-Ml_hOOvA-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;postcondition&amp;gt;&amp;gt; a new PowerReading is created and stored locally&lt;div&gt;&amp;lt;&amp;lt;postcondition&amp;gt;&amp;gt; if PowerReading &amp;gt; 1&lt;/div&gt;&lt;div&gt;the usage interval is calculated&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;postcondition&amp;gt;&amp;gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;postcondition&amp;gt;&amp;gt; applicable tariff is resolved&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;postcondition&amp;gt;&amp;gt; interval cost is calculated&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;postcondition&amp;gt;&amp;gt; corresponding UsageLog is created&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;postcondition&amp;gt;&amp;gt; new records marked for synchronization&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;postcondition&amp;gt;&amp;gt; notification is sent to user&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="280" x="110" y="260" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
